@@ -104,3 +104,25 @@ li .remove-btn:hover {
     text-decoration: line-through;
     color: #6c757d;
 }
+@media screen and (max-width: 486px){
+    button{
+    padding: 13px 20px;
+    font-size: 0.8rem;
+}
+input{
+    width: 70%;
+    padding: 10px;
+    font-size: 0.8rem;
+}
+}
+@media screen and (max-width: 376px){
+    button{
+    padding: 13px;
+    font-size: 0.8rem;
+}
+input{
+    width: 70%;
+    padding: 10px;
+    font-size: 0.8rem;
+}
+}
